@@ -16,7 +16,7 @@ export async function generateCommitMessage(diff: string): Promise<string> {
 Analise as seguintes mudanças no código e gere uma mensagem de commit seguindo a especificação Conventional Commits.
 
 Regras:
-1. Use APENAS português brasileiro
+1. Use APENAS inglês
 2. Formato: tipo(escopo): título
    - Corpo com lista de mudanças específicas
 3. Tipos válidos: feat, fix, docs, style, refactor, test, chore
@@ -26,10 +26,10 @@ Regras:
 7. Seja específico sobre o que foi alterado
 
 Exemplo:
-feat: add campos AI ao bloco Feature da coleção Hero
-- Adicionado aiPrompt e aiDescription ao schema do bloco Feature
-- Atualizada UI do admin para renderizar novos campos
-- Removido arquivo de configuração AI não utilizado
+feat: add AI fields to Feature block in Hero collection
+- Added aiPrompt and aiDescription to Feature block schema
+- Updated admin UI to render new fields
+- Removed unused AI config file
 
 Mudanças no código:
 \`\`\`diff
@@ -44,7 +44,7 @@ Gere apenas a mensagem de commit, sem explicações adicionais:`;
       messages: [
         {
           role: 'system',
-          content: 'Você é um especialista em gerar mensagens de commit seguindo Conventional Commits em português brasileiro. Seja preciso e direto.'
+          content: 'Você é um especialista em gerar mensagens de commit seguindo Conventional Commits em inglês. Seja preciso e direto.'
         },
         {
           role: 'user',
