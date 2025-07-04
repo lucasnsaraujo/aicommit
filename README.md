@@ -1,7 +1,7 @@
 # AICommit
 
 CLI para gerar mensagens de commit automaticamente usando GPT.
-
+dasds
 ## Características
 
 - ✨ Gera mensagens de commit seguindo Conventional Commits
