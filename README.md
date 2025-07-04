@@ -6,7 +6,7 @@ dasds
 
 - ✨ Gera mensagens de commit seguindo Conventional Commits
 - 🔍 Compara mudanças com qualquer branch
-- 🤖 Integração com OpenAI GPT-4
+- 🤖 Integração com OpenAI GPT-4 teste
 - 📱 Menu interativo com inquirer
 - ⚡ Commit automático após aprovação
 - 🔧 Configuração simples da API key
